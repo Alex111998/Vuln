@@ -15,6 +15,12 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
             at org.apache.groovy.json.internal.JsonFastParser.decodeJsonArrayOverlay(JsonFastParser.java:282)
             ...
             at org.apache.groovy.json.internal.JsonFastParser.decodeValueOverlay(JsonFastParser.java:132)
+### Version
+        <dependency>
+            <groupId>org.apache.groovy</groupId>
+            <artifactId>groovy-json</artifactId>
+            <version>4.0.12</version>
+        </dependency>
 
 ### PoC
 ---
