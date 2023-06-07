@@ -23,6 +23,13 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
           at java.lang.String.valueOf(String.java:2994)
           at java.lang.StringBuilder.append(StringBuilder.java:131)
           at groovy.util.Node.toString(Node.java:805)
+          
+### Version
+        <dependency>
+            <groupId>org.apache.groovy</groupId>
+            <artifactId>groovy-xml</artifactId>
+            <version>4.0.12</version>
+        </dependency>
 
 ### PoC
 ---
