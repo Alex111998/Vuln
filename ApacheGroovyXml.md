@@ -1060,6 +1060,6 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
         
 ### Rectification Solution
 ---
-1.Refer to the solution of jackson-databind: Add the depth variable to record the current parsing depth. If the parsing depth exceeds a certain threshold, an exception is thrown. ([FasterXML/jackson-databind@fcfc499]((https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b)))
+1.Refer to the solution of jackson-databind: Add the depth variable to record the current parsing depth. If the parsing depth exceeds a certain threshold, an exception is thrown. ([FasterXML/jackson-databind@fcfc499](https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b))
 
-2.Refer to the GSON solution: Change the recursive processing on deeply nested arrays or JSON objects to stack+iteration processing.([google/gson@2d01d6a20f39881c692977564c1ea591d9f39027]([https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b](https://github.com/google/gson/commit/2d01d6a20f39881c692977564c1ea591d9f39027%EF%BC%89)))
+2.Refer to the GSON solution: Change the recursive processing on deeply nested arrays or JSON objects to stack+iteration processing.([google/gson@2d01d6a20f39881c692977564c1ea591d9f39027]([https://github.com/FasterXML/jackson-databind/commit/fcfc4998ec23f0b1f7f8a9521c2b317b6c25892b](https://github.com/google/gson/commit/2d01d6a20f39881c692977564c1ea591d9f39027%EF%BC%89))
