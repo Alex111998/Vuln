@@ -40,7 +40,7 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
         import javax.xml.parsers.ParserConfigurationException;
         import java.io.IOException;
 
-        public class ApacheGroovyXmlTest {
+        public class CodehausGroovyXmlTest {
 
             public static String createXmlStr() {
                 StringBuilder str = new StringBuilder("Test xml");
