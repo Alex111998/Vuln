@@ -1,7 +1,7 @@
 ## StackOverflowError caused by groovy-json parsing of untrusted JSON String
 ### Description
 ---
-Using groovy-xml to parse untrusted XML String may be vulnerable to denial of service (DOS) attacks. If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.
+Using groovy-json to parse untrusted JSON String may be vulnerable to denial of service (DOS) attacks. If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.
 
 ### Error Log
 ---
