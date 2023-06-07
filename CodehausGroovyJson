@@ -27,7 +27,7 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
 import groovy.json.JsonParser;
 import org.apache.groovy.json.internal.JsonFastParser;
 
-        public class ApacheGroovyJsonTest {
+        public class CodehausGroovyJsonTest {
 
             public final static int TOO_DEEP_NESTING = 9999;
             public final static String TOO_DEEP_DOC = _nestedDoc(TOO_DEEP_NESTING, "[ ", "] ", "0");
