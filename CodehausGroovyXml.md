@@ -27,7 +27,7 @@ Using groovy-xml to parse untrusted XML String may be vulnerable to denial of se
 ### Version
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-json</artifactId>
+            <artifactId>groovy-xml</artifactId>
             <version>3.0.17</version>
         </dependency>
 
