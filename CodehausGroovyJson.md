@@ -18,7 +18,7 @@ Using groovy-json to parse untrusted JSON String may be vulnerable to denial of 
 ### Version
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-xml</artifactId>
+            <artifactId>groovy-json</artifactId>
             <version>3.0.17</version>
         </dependency>
 
