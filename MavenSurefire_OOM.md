@@ -1,4 +1,4 @@
-When I test the latest version(3.2.2) of maven-surefire-common by CIFuzz，a OOM security issue was found, it caused when put a big number in JSONArray, may cause denial of service issues in applications via the follow code:
+When I test the latest version(3.2.2) of maven-surefire-common by CIFuzz，a OOM security issue was found, it caused when use a big number, may cause denial of service issues in applications via the follow code:
 
 pom
 ```
