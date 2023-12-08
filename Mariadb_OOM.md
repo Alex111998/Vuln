@@ -41,4 +41,5 @@ public class Mariadb_OOM {
     }
 }
 ```
+![image](https://github.com/Alex111998/Vuln/assets/127834723/801167e3-e63b-40ff-81cb-55497ed7c452)
 
