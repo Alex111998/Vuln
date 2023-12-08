@@ -25,3 +25,4 @@ public class MavenSurefire_OOM {
     }
 }
 ```
+![image](https://github.com/Alex111998/Vuln/assets/127834723/fecb6a8c-0364-4694-9980-fa89226e139f)
